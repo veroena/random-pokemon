@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #4CA7D7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-image {
+  margin: 50px 0;
+  width: 300px;
+  height: 145px;
+  background-image: url('https://seeklogo.com/images/P/Pokemon-logo-497D61B223-seeklogo.com.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin-bottom: 30px;
+  font-family: 'Signika', sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.btn:hover {
+  box-shadow: 5px 5px 5px darkslategray;
+}
+
+.name {
+  height: 50px;
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.image-container {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poke-image-1 {
+  margin-right: 20px;
+}
