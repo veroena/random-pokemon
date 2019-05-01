@@ -22,6 +22,7 @@ body {
   background-image: url('https://seeklogo.com/images/P/Pokemon-logo-497D61B223-seeklogo.com.png');
   background-position: center;
   background-size: cover;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -42,6 +43,7 @@ body {
   border: none;
   border-radius: 5px;
   padding: 5px 15px;
+  cursor: pointer;
 }
 
 .btn:hover {

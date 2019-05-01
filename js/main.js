@@ -1,10 +1,10 @@
 'use strict';
 
 const btn = document.querySelector('.btn');
-const container = document.querySelector('.poke-container');
 const img1 = document.querySelector('.poke-image-1');
 const img2 = document.querySelector('.poke-image-2');
 const pokeName = document.querySelector('.name');
+const logo = document.querySelector('.header-image');
 
 const strengthArr = [' and I believe in you!', ' and you can do this!', ` and I'm rooting for you!`, ' and I think you can do anything!', '. Keep pushing!', ` and I think you're awesome!`, ` and I'm your #1 fan!`];
 
@@ -24,4 +24,11 @@ const showPoke = () => {
   });
 }
 
+const refresh = () => {
+  pokeName.innerHTML = '';
+  img1.src = '';
+  img2.src = '';
+}
+
 btn.addEventListener('click', showPoke);
+logo.addEventListener('click', refresh);
